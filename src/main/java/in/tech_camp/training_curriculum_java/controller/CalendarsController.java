@@ -47,7 +47,7 @@ public class CalendarsController {
     return "redirect:/calendars";
   }
 
-  private List<Map<String, Object>> get_week() {
+  private List<Map<String, Object>> getWeek() {
     List<Map<String, Object>> weekDays = new ArrayList<>();
 
     LocalDate todaysDate = LocalDate.now();
